@@ -37,8 +37,8 @@
           Response: {"filesize":'<i>size</i>'}
         </li>
       </ul>
-    <form action="/upload">
-      <input type="file"><button type="submit">Submit</button>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file"><button type="submit">Submit</button>
       
     </form>
 
